@@ -1,0 +1,25 @@
+body{
+    margin: 0px;
+    background: hsl(0, 0%, 8%);
+    color: white;
+}
+
+.container{
+    justify-items: center;
+    align-content: center;
+    height: 100vh;
+}
+
+.card{
+    width: 340px;
+    height: 600px;
+    background: hsl(0, 0%, 12%);
+    justify-items: center;
+}
+
+img{
+    width: 93px;
+    height: 93px;  
+    border-radius: 50%;
+    margin-top: 24px;
+}
