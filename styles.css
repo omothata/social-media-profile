@@ -1,7 +1,13 @@
+@font-face {
+    font-family: 'Inter';
+    src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+
 body{
     margin: 0px;
     background: hsl(0, 0%, 8%);
     color: white;
+    font-family: 'Inter';
 }
 
 .container{
@@ -15,6 +21,7 @@ body{
     height: 600px;
     background: hsl(0, 0%, 12%);
     justify-items: center;
+    font-size: 14px;
 }
 
 img{
@@ -22,4 +29,39 @@ img{
     height: 93px;  
     border-radius: 50%;
     margin-top: 24px;
+}
+
+h1{
+    font-size: 24px;
+    line-height: 150%;
+}
+
+h2{
+    line-height: 10%;
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+}
+
+h3{
+    line-height: 150%;
+    margin-top: 32px;
+    margin-bottom: 24px;
+    font-weight: normal;
+    font-size: 14px;
+}
+button{
+    margin-bottom: 15px;
+    width: 290px;
+    height: 48px;
+    margin-left: 25px;
+    background: hsl(0, 0%, 20%);
+    color:white;
+    border-radius: 10px;
+    border: none;
+    font-weight: bolder;
+}
+
+button:hover{
+    background: hsl(75, 94%, 57%);
+    color: black;
 }
